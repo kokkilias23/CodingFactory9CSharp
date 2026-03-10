@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="BestSumMatrix2/BestSumMatrix2.csproj" Id="e9fb8644-f902-4e76-b264-9ab8aaa132f6" />
   <Project Path="CitiesFor/CitiesFor.csproj" Id="0e4a1d72-4fd1-47cb-b6e8-426984b3f8c7" />
   <Project Path="DoWhileApp/DoWhileApp.csproj" Id="7a1fd4aa-a0fe-48ac-8fb8-e187f96ee4a5" />
   <Project Path="ExpressionBodyMethods/ExpressionBodyMethods.csproj" Id="4372920e-8047-4a8d-b2c9-6a751e463751" />
@@ -8,6 +9,7 @@
   <Project Path="KilometersApp/KilometersApp.csproj" />
   <Project Path="MethodsApp/MethodsApp.csproj" Id="a09e11d3-9853-4a7e-bb8e-a1cc158737b2" />
   <Project Path="NumberRead/NumberRead.csproj" />
+  <Project Path="PascalTriangle/PascalTriangle.csproj" Id="88283ab7-c693-4729-b333-8508f999faef" />
   <Project Path="PrintingApp/PrintingApp.csproj" />
   <Project Path="ProductsVat/ProductsVat.csproj" />
   <Project Path="SwapApp/SwapApp.csproj" Id="0e0503e4-5c0e-4b16-a411-efc0391291bd" />
