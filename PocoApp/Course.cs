@@ -7,6 +7,7 @@ namespace PocoApp
     /// <summary>
     /// Defines a Course with auto-implemented properties for Id, Title and Description.
     /// Το CLR δημιουργεί αυτόματα private backing fields
+    /// This is a POCO (Plain Old CLR Object) class.     
     /// </summary>
     internal class Course
     {
