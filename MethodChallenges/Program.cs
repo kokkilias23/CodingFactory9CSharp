@@ -51,5 +51,42 @@ namespace MethodChallenges
             }
             return sb.ToString();
         }
+
+        // Creates a random pin of 4 digits. Random .next
+        public static string GeneratePin()
+        {
+            Random rand = new();
+
+            return rand.Next(1000, 10000).ToString();   // 1000 to 9999
+        }
+
+        // Filtering even numbers from an array
+        public static int[] FilterEven(int[] arr)
+        {
+            // return arr.Where(num => num % 2 == 0).ToArray();
+            return [.. arr.Where(num => num % 2 == 0)]; // spread > C# 12
+        }
+
+        // Bubble sort an array of ints
+        public static void BubbleSort(int[] arr)
+        {
+            int n = arr.Length;
+
+            for (int i = n - 1; i > 0; i--)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    if (arr[j] > arr[j + 1])
+                    {
+                        // Swap arr[j] and arr[j + 1]
+                        (arr[j + 1], arr[j]) = (arr[j], arr[j + 1]); // tuple swap
+                    }
+                }
+            }
+        }
+
+
+
+
     }
 }
