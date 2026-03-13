@@ -1,10 +1,10 @@
-﻿namespace UtilityApp
+﻿namespace AccountApp
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            HelloUtil.SayHello();
+            Console.WriteLine("Hello, World!");
         }
     }
 }
