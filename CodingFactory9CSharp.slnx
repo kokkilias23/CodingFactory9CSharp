@@ -1,4 +1,5 @@
 <Solution>
+  <Folder Name="/FomratExceptionApp/" />
   <Project Path="AbstractApp/AbstractApp.csproj" Id="8c3d6109-e04e-4769-ae6b-a8ee557bf76b" />
   <Project Path="AccountApp/AccountApp.csproj" Id="39565445-7b90-4c12-a141-6de5b2ff4b54" />
   <Project Path="ArgsDemo/ArgsDemo.csproj" Id="57b6a480-1925-458d-ae98-b71cb1d153ec" />
